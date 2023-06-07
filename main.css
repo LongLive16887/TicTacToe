@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+.text-main-custom{
+    color: rgb(68, 32, 188);
+}
+.text-white-custom{
+    color: white;
+}
+.bg_won{
+    background-color: red;
+}
+.btn{
+    padding: 40px 40px 40px 40px;
+}
+.container {
+    text-align: center;
+    padding: 0px 20px 0 20px;
+}
+  
+.board {
+    margin-top: 10px;
+}
+  
+.row {
+    margin-top: 10px;
+}
+  
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2.5px solid rgb(68, 32, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    color: white;
+}
+
+.d-inline{
+    padding-right: 4px;
+    padding-left: 20px;
+}
+
+@media (max-width: 576px) {
+    .btn{
+        padding: 20px 20px 20px 20px;
+    }
+    .container{
+        padding-top: 40px;
+    }
+    .cell {
+        width: 100px;
+        height: 100px;
+        font-size: 48px;
+    }
+}
+
+.fa-trash{
+    color: white;
+}
+.win{
+    background-color: rgb(51, 7, 95);
+}
